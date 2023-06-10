@@ -85,7 +85,7 @@ console.log(getMaxEvenElement([4, -12, 29, 6, 31, 92, -50])); // 31
 function f(clockArr, money) {
     for (let i = 0; i < clockArr.length - 1; i++) {
         for (let j = i + 1; j < clockArr.length; j++) {
-            if (Math.floor((clockArr[i] + clockArr[j])) / 100 === money) {
+            if (Math.floor((clockArr[i] + clockArr[j]) * 100) / 100 === money) {
                 return true;
             }
         }
