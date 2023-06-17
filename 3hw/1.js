@@ -3,5 +3,5 @@ function convertFahrenheit(temp) {
     return temp * 9 / 5 + 32;
 }
 
-let tempC = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
+const tempC = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
 alert(`Цельсий: ${tempC}, Фаренгейт: ${convertFahrenheit(tempC).toFixed(1)}`);
