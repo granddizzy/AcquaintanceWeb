@@ -7,7 +7,7 @@ CREATE TABLE classmates (
                             id INTEGER PRIMARY KEY AUTO_INCREMENT,
                             name TEXT NOT NULL,
                             age INTEGER NOT NULL,
-                            address TEXT
+                            address TEXT NOT NULL
 );
 
 -- insert
@@ -20,7 +20,7 @@ INSERT INTO classmates (name, age, address) VALUES ('Ксения', 28, 'РФ, �
 INSERT INTO classmates (name, age, address) VALUES ('Екатерина', 20, 'РФ, Москва');
 INSERT INTO classmates (name, age, address) VALUES ('Оксана', 26, 'РФ, Екатеринбург');
 INSERT INTO classmates (name, age, address) VALUES ('Петр', 26, 'РФ, Вологда');
-INSERT INTO classmates (name, age, address) VALUES ('Мария', 31, '');
+INSERT INTO classmates (name, age, address) VALUES ('Мария', 31, 'РФ, Пенза');
 
 
 -- fetch
