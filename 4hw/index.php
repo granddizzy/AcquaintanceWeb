@@ -5,8 +5,8 @@
 $name = "Роман";
 $prof = "Программист";
 $town = "Минск";
-$email = "roman@yandex.ru";
-$phone = "+37529123456";
+$email = "lepihovrom@yandex.by";
+$phone = "+375293493335";
 
 $skills = [
     [
